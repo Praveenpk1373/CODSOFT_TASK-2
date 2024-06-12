@@ -1,0 +1,96 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorBackground"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quotes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:padding="16dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Quote of the Day"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhite"
+        android:padding="20dp"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:background="@drawable/quote_background"
+        android:elevation="4dp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:textSize="18sp"
+        android:textColor="@color/colorGray"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh Quote"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Quote"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Favorites"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnViewFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Favorites"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+
+
+
+
